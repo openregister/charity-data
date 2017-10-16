@@ -1,10 +1,13 @@
 # Data for a register of charities
 
-Data for a [register](registers.cloudapps.digital/registers) of charities.
+Data for [registers](registers.cloudapps.digital/registers) of charities in the
+UK.
+
+#### Charity-eng and charity-wls
 
 The Charities Commission provides monthly [zipped data
-dumps](http://data.charitycommission.gov.uk/default.aspx), which must be
-converted from the MS SQL Server bcp format into CSV, using
+dumps](http://data.charitycommission.gov.uk/default.aspx) for England and Wales,
+which must be converted from the MS SQL Server bcp format into CSV, using
 [scripts](https://github.com/ncvo/charity-commission-extract) by the National
 Council of Voluntary Organisations (NVCO).
 
@@ -22,3 +25,11 @@ python ../../charity-commission-extract/import.py ./zip/RegPlusExtract_October_2
 ```
 
 [Field definitions](http://data.charitycommission.gov.uk/data-definition.aspx).
+
+#### Charity-sct
+
+[charity-sct](https://www.oscr.org.uk/charities/search-scottish-charity-register/charity-register-download)
+
+#### Charity-nir
+
+[charity-nir](http://www.charitycommissionni.org.uk/charity-search/))
